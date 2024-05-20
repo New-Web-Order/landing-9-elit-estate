@@ -1,0 +1,206 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "Feature", "href": "#feature"  },
+          { "name": "About", "href": "#about"  },
+          { "name": "Benifit", "href": "#benifit"  },
+          { "name": "Testimonial", "href": "#testimonial"  }
+        ],
+        "buttonText": "Contact Us",
+        "buttonTextTwo": "Call Us 1900 123 654",
+        "logoText": "Elit Estate"
+      },
+      "heroSection": {
+        "heading": "Your Trusted Partner in Health",
+        "subheading": "Welcome to our trusted medical hub. Your health is our priority. We help you achieve optimal wellness.",
+        "buttonText": "Get Started",
+        "buttonTextTwo": "Login"
+      },
+      "featureOne": {
+        "tag": "Feature",
+        "heading": "Assisting individuals in locating the appropriate real estate.",
+        "subText": "Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac malesuada leo volutpat.",
+        "cardHeading":"Donec porttitor euismod",
+        "cardText":"Nullam a lacinia ipsum, nec dignissim purus. Nulla"
+        
+      },
+      "about": {
+        "tag": "About",
+        "heading": "Describe feature one",
+        "subText": "Our dedicated team combines years of expertise with a compassionate approach to healthcare. We prioritize your well-being, offering personalized treatments and support every step of the way. Trust us to provide exceptional medical care tailored to your unique needs and concerns.",
+        "benifit":"Benefit one of this feature"
+      },
+      "highlight": {
+        "tag":"Features",
+        "heading":"Donec porttitor euismod dignissim",
+        
+          "cardInfo":[
+            {
+              "image":"/assets/images/highlight-one.svg",
+              "title":"Domestic violence",
+              "description":"Know your rights. we will take care about the rest."
+              
+            },
+            {
+              "image":"/assets/images/highlight-two.svg",
+              "title":"Securities law",
+              "description":"Navigating complex securities for financial fecurity"
+              
+            },
+            {
+              "image":"/assets/images/highlight-three.svg",
+              "title":"Liberty Defended",
+              "description":"Protecting your rights with strategic solutions "
+              
+            },
+            {
+              "image":"/assets/images/highlight-two.svg",
+              "title":"Federal crimes",
+              "description":"Defending your rights against federal charges"
+              
+            }
+          ]
+        },
+      "testimonial": {
+        "tag":"Features",
+        "mainHeading": "Client Stories: Our Patients Share Their Experience",
+        "mainText": "Discover how our patients' lives have been transformed through compassionate care and expert medical guidance.",
+        "buttonTextOne":"ALL",
+        "buttonTextTwo":"BUY",
+        "buttonTextThree":"RENT",
+
+        "cardInfo": [
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          },
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          },
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          },
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          },
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          },
+          {
+            "price": "$ 5,970",
+            "bedImage":"/assets/images/bed.svg",
+            "bathImage":"/assets/images/bath.svg",
+            "status": "Patient",
+            "description": "Tranquil Haven in the Woods",
+            "descriptionTwo":"103 Wright CourtBurien, WA 98168",
+            "bed":"bed",
+            "bath":"bath"
+          }
+
+
+
+          
+
+          
+        ]
+
+
+      },
+      "footer": {
+        "contactHeading":"Contact",
+        "exploreHeading":"Explore",
+        "aboutHeading":"About US",
+        "servicesHeading":"Services",
+
+
+        "endLinks": [
+          {"name": "Privacy Policy", "href": "#"},
+          {"name": "Terms of Service", "href": "#"},
+          {"name": "Cookies Settings", "href": "#"}
+
+          
+          
+                 
+        ],
+          "exploreLinks": [
+            {"name": "Care", "href": "#"},
+            {"name": "Heal", "href": "#"},
+            {"name": "Learn", "href": "#"},
+            {"name": "Connect", "href": "#"},
+            {"name": "Support", "href": "#"}
+
+          ],
+          
+          "serviceLinks": [
+            {"name": "Treatment", "href": "#"},
+            {"name": "Therapy", "href": "#"},
+            {"name": "Consult", "href": "#"},
+            {"name": "Care", "href": "#"},
+            {"name": "Support", "href": "#"}
+
+          ],
+          "topLinks": [
+            {"name": "+44 736-085-6434", "href": "https://www.newweborder.co"},
+            {"name": "contact@newweborder.co", "href": "https://www.newweborder.co"},
+            {"name": "Glassplace, Near", "href": "https://www.newweborder.co"},
+            {"name": "Cool Avenue,Boson", "href": "https://www.newweborder.co"}
+
+          ],
+          "aboutLinks": [
+            {"name": "Who we are", "href": "#"},
+            {"name": "Our Vision", "href": "#"},
+            {"name": "OPD", "href": "#"},
+            {"name": "Surgery", "href": "#"},
+            {"name": "Consultaion", "href": "#"}
+
+          ],
+
+          "SocialMediaLinks": [
+            {"name": "facebook", "href": "https://www.facebook.com/NewWebOrder1"},
+            {"name": "instagram", "href": "https://www.instagram.com/newweborderltd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"},
+            {"name": "linkedin", "href": "https://www.linkedin.com/company/newweborder"}
+          ]
+          
+
+
+
+
+        
+      }
+
+
+}

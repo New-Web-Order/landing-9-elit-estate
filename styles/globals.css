@@ -1,0 +1,149 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+    :root {
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+
+      --bg-default: #fff;
+      --bg-base: #fcfcfc;
+      --bg-bg-subtle: #f8f8f8;
+      --bg-bg: #f3f3f3;
+      --bg-bg-hover: #ededed;
+      --bg-bg-active: #e8e8e8;
+      --fg-line: #e2e2e2;
+      --fg-border: #dbdbdb;
+      --fg-border-hover: #c7c7c7;
+      --fg-solid: #8f8f8f;
+      --fg-solid-hover: #858585;
+      --fg-text: #6f6f6f;
+      --fg-text-contrast: #171717;
+      --fg-default: #000;
+
+      --primary-base: #fbfdff;
+      --primary-bg-subtle: #f5faff;
+      --primary-bg: #edf6ff;
+      --primary-bg-hover: #e1f0ff;
+      --primary-bg-active: #cee7fe;
+      --primary-line: #b7d9f8;
+      --primary-border: #96c7f2;
+      --primary-border-hover: #5eb0ef;
+      --primary-solid: #0091ff;
+      --primary-solid-hover: #0081f1;
+      --primary-text: #006adc;
+      --primary-text-contrast: #00254d;
+      --primary-text-contrast-two: #0D2847;
+
+    
+    
+
+    }
+
+    .dark {
+      color-scheme:dark;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+
+      --bg-default: #000;
+      --bg-base: #161616;
+      --bg-bg-subtle: #1c1c1c;
+      --bg-bg: #232323;
+      --bg-bg-hover: #282828;
+      --bg-bg-active: #2e2e2e;
+      --fg-line: #343434;
+      --fg-border: #3e3e3e;
+      --fg-border-hover: #505050;
+      --fg-solid: #707070;
+      --fg-solid-hover: #7e7e7e;
+      --fg-text: #a0a0a0;
+      --fg-text-contrast: #ededed;
+      --fg-default: #fff;
+
+      --primary-base: #0f1720;
+      --primary-bg-subtle: #0f1b2d;
+      --primary-bg: #10243e;
+      --primary-bg-hover: #102a4c;
+      --primary-bg-active: #0f3058;
+      --primary-line: #0d3868;
+      --primary-border: #0a4481;
+      --primary-border-hover: #0954a5;
+      --primary-solid: #0091ff;
+      --primary-solid-hover: #369eff;
+      --primary-text: #52a9ff;
+      --primary-text-contrast: #eaf6ff;
+      --primary-text-contrast-two: #c5e8ff;
+    
+
+  
+    }
+  
+
+
+  /* my styles */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings:
+    'case' 1,
+    'rlig' 1,
+    'calt' 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  background-color: var(--bg-base);
+  
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.height-screen-helper {
+  min-height: calc(100vh - 80px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.box-shadow{
+  box-shadow: 0px 3.153px 8.671px 0px rgba(0, 0, 0, 0.15),
+  0px -3.153px 8.671px rgba(0, 0, 0, 0.15); /* Box-shadow on top side */
+}
