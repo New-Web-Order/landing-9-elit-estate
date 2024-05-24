@@ -15,10 +15,10 @@
     "semi": ["error", "always"],
     "curly": ["warn", "multi"],
     "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true  }],
-    "jsx-quotes": ["error", "prefer-single"],
+    "jsx-quotes": ["warn", "prefer-single"],
     "no-console": "warn",
     "comma-dangle": ["error", "never"],
-    "no-unused-expressions": "error",
+    "no-unused-expressions": "warn",
     "no-constant-binary-expression": "error",
     "@typescript-eslint/no-unused-vars": "error",
     // to enforce using type for object type definitions, can be type or interface 
