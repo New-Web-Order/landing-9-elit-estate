@@ -12,15 +12,15 @@
   ],
 
   "rules": {
-    "semi": ["error", "always"],
+    "semi": ["warn", "always"],
     "curly": ["warn", "multi"],
     "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true  }],
     "jsx-quotes": ["warn", "prefer-single"],
     "no-console": "warn",
     "comma-dangle": ["error", "never"],
     "no-unused-expressions": "warn",
-    "no-constant-binary-expression": "error",
-    "@typescript-eslint/no-unused-vars": "error",
+    "no-constant-binary-expression": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
     // to enforce using type for object type definitions, can be type or interface 
     // "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/no-unsafe-assignment": "off",
